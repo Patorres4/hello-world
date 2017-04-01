@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+          printf("\ndame 1 punto(2 coordenadas)\n"); 
+          scanf("%d", &x);
+          scanf("%d", &y);
+if     (x>o && y>0){
+       printf("\nel punto esta en el cuadrante 1\n);
+}
+else   if(x<0 && y>o){
+       printf("\nel punto esta en el cuadrante 2\n");
+}
+else   if(x<0 && y<0){
+       printf("\nel punto esta en el cuadrante 3\n");
+}
+else   if(x>0 && y<0){
+       printf("\nel punto esta en el cuadrante 4\n");
+}
+else   if(x!=0 && y=0){
+       printf("\nel punto esta en el eje \n")
+}
+
