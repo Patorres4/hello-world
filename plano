@@ -1,21 +1,51 @@
 #include<stdio.h>
 int main(){
+    int  x,y;
           printf("\ndame 1 punto(2 coordenadas)\n"); 
           scanf("%d", &x);
           scanf("%d", &y);
-if     (x>o && y>0){
-       printf("\nel punto esta en el cuadrante 1\n);
+if     (x>0 && y>0){
+       printf("\nel punto esta en el cuadrante 1\n");
+       printf("\t|\n\t|  o\n\t|");
+       printf("\nxxxxxxxxxxxxxxxxx\n");
+       printf("\t|\n\t|\n\t|");
 }
-else   if(x<0 && y>o){
+else   if(x<0 && y>0){
        printf("\nel punto esta en el cuadrante 2\n");
+       printf("\t|\n  o \t|\n\t|");
+       printf("\nxxxxxxxxxxxxxxxxx\n");
+       printf("\t|\n\t|\n\t|");
 }
 else   if(x<0 && y<0){
        printf("\nel punto esta en el cuadrante 3\n");
+       printf("\t|\n\t|\n\t|");
+       printf("\nxxxxxxxxxxxxxxxxx\n");
+       printf("\t|\n  o  \t|\n\t|");
 }
 else   if(x>0 && y<0){
        printf("\nel punto esta en el cuadrante 4\n");
+       printf("\t|\n\t|\n\t|");
+       printf("\nxxxxxxxxxxxxxxxxx\n");
+       printf("\t|\n\t|  o \n\t|");
 }
-else   if(x!=0 && y=0){
-       printf("\nel punto esta en el eje \n")
+else   if(x!=0 && y==0){
+       printf("\nel punto esta en el eje x\n");
+       printf("\t|\n\t|\n\t|");
+       printf("\nxxxxxxxxxxxxxoxxx\n");
+       printf("\t|\n\t|\n\t|");
 }
-
+else   if(x==0 && y!=0){
+       printf("\nel punto esta en el eje y\n");
+       printf("\t|\n\t|\n\to\n\t|");
+       printf("\nxxxxxxxxxxxxxxxxx\n");
+       printf("\t|\n\t|\n\t|");
+}
+else   if(x==0 && y==0){
+       printf("\nel punto esta en el origen\n");
+       printf("\t|\n\t|\n\t|");
+       printf("\nxxxxxxxxoxxxxxxxx\n");
+       printf("\t|\n\t|\n\t|");
+} 
+return 0;
+} 	   
+	   
